@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-  foodFilter: objet
+  foodFilter: FoodFilter
 }>()
 </script>
 <template>

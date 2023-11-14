@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { Ref } from 'vue'
 import FoodFilter from './filter/FoodFilter.vue'
-interface Food {
+interface FoodFilter {
   id: number
   name: string
   logo: string
 }
-let listFoodFilter = ref<Array<Food>>([])
+let listFoodFilter = ref<Array<FoodFilter>>([])
 
 const food = {
   id: 254,

@@ -40,6 +40,7 @@ body {
   border-block-end-width: thin;
   border-top: 1px #efefef solid;
   border-bottom: 1px #efefef solid;
+  background-color: white;
 }
 .leftsidebar {
   padding-block-start: $padding-block-start;
