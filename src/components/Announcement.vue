@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import * from '../../domain/entites'
+import type { Announcement } from '@/domain/entities'
 defineProps<{
   announcement: Announcement
 }>()
