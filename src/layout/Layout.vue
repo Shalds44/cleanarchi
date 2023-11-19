@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue'
+import { RouterView } from 'vue-router'
 
-const layoutName = ref(null)
 </script>
 <template>
   <div class="layout">
