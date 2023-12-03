@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import AnnouncementComponent from '../components/Announcement.vue'
-import {ref, Ref} from 'vue'
+import {ref} from 'vue'
 import { GetAnnouncementsUseCase } from '@/domain/usecases/GetAnnouncementsUseCase'
+import { AnnouncementRepositoryInMemory } from "@/adapters/repositories/inmemory/AnnouncementRepositoryInMemory";
 
-const listAnnouncement = ref(new GetAnnouncementsUseCase().execute())
+const announcementRepositoryInMemory = new AnnouncementRepositoryInMemory()
+const listAnnouncement = ref(new GetAnnouncementsUseCase(announcementRepositoryInMemory).execute())
+
 // onMounted(async () => {
 //   response = await axios.get('https://127.0.0.1:8000/api/post', {
 //     headers: {
