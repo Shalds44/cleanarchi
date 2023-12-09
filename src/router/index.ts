@@ -30,7 +30,15 @@ const router = createRouter({
         Header: () => import('../components/Header.vue'),
         LeftSideBar: () => import('../components/SideBarLeft.vue')
       }
-    }
+    },
+    {
+      path: '/decorator',
+      name: 'decorator',
+      components: {
+        default: () => import('../views/Decorator.vue'),
+        Header: () => import('../components/Header.vue'),
+      }
+    },
   ]
 })
 

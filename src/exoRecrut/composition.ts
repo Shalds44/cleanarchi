@@ -1,5 +1,5 @@
-import type {IdentifierCriteria} from "@/daxium/identifierCriteria";
-import type {IdentifierReference} from "@/daxium/identifierReference";
+import type {IdentifierCriteria} from "@/exoRecrut/identifierCriteria";
+import type {IdentifierReference} from "@/exoRecrut/identifierReference";
 
 export class Composition {
     identifiers: Array<IdentifierCriteria | IdentifierReference> = []

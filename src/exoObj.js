@@ -1,6 +1,6 @@
-import {Composition} from "@/daxium/composition";
-import {IdentifierCriteria} from "@/daxium/identifierCriteria";
-import {IdentifierReference} from "@/daxium/identifierReference";
+import {Composition} from "@/exoRecrut/composition";
+import {IdentifierCriteria} from "@/exoRecrut/identifierCriteria";
+import {IdentifierReference} from "@/exoRecrut/identifierReference";
 
 const datacas3 = {
     "criteria":
